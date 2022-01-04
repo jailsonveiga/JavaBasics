@@ -6,10 +6,16 @@ public class JavaBasics {
 
         System.out.println(fullName);
         System.out.println(createFullName("Jay", "Veiga"));
+        System.out.println(NameGenerator.generateFullName("Jay", "Veiga"));
     }
     public static String createFullName(String firstName, String lastName){
-        String fullName = firstName.concat(" " + lastName);
-        return fullName;
+        return firstName.concat(" " + lastName);
+    }
+    public static class NameGenerator{
+
+        public static String generateFullName(String firstname, String lastName){
+            return firstname + " " + lastName;
+        }
     }
 
 }
