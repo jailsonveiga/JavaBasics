@@ -5,6 +5,11 @@ public class JavaBasics {
         String fullName = firstName + " " + lastName;
 
         System.out.println(fullName);
+        System.out.println(createFullName("Jay", "Veiga"));
+    }
+    public static String createFullName(String firstName, String lastName){
+        String fullName = firstName.concat(" " + lastName);
+        return fullName;
     }
 
 }
