@@ -19,7 +19,22 @@ public class VariableDataType {
         //Display 15 On The Screen
         System.out.println (a);
 
+        //Display "-----" On The Screen
+        System.out.println("-----");
+
         //Display "Hello World" On The Screen
         System.out.println (s);
+
+        //Display "-----" On The Screen
+        System.out.println("-----");
+
+        //Initialize String DataType with Variable name and Store The Value "Jay" into name
+        String name = "Jay ";
+
+        //Initialize String DataType with Variable freeTime and Store The Value "Love to Code" into freeTime
+        String freeTime = "Love to Code";
+
+        //Use The + Sign To join The variable Value Together and Display The Value On The Screen
+        System.out.println (name + freeTime);
     }
 }
