@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class PositiveAndNegativeNumber {
 
-    //Add The BufferedReader object to allow user to input data
+    //Add The BufferedReader class to allow user to input data
     public static BufferedReader userInput = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) throws IOException {
