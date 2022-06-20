@@ -3,7 +3,7 @@ package if_statement;
 public class Compare {
     public static void main(String[] args) {
         //Call the method compare and passing the argument value
-        compare(6);
+        compare(8);
 
     }
     //Create a method compare with one parameter as an integer data type
