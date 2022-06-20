@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class DayOfTheWeek {
-    //Create an object instance BufferedReader that allow users to input data
+    //Create a java class BufferedReader that reads text from the input stream
     public static BufferedReader userInput = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) throws IOException {
