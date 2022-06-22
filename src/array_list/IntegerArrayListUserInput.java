@@ -33,8 +33,10 @@ public class IntegerArrayListUserInput {
         //Convert the string readLine() to integer using the Integer.parseInt
         int num3 = Integer.parseInt(userInput.readLine());
 
+        //Create an empty list array and assign the future value and store into numbers
         List<Integer> numbers = new ArrayList<>();
 
+        //Add num1, num2, num3 values from the user input and store the value into numbers
         numbers.add(num1);
         numbers.add(num2);
         numbers.add(num3);
