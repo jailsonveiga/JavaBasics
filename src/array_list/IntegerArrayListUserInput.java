@@ -8,15 +8,19 @@ import java.util.Collections;
 import java.util.List;
 
 public class IntegerArrayListUserInput {
+    //Add the BufferedReader java class to read the text from the keyboard user input
     public static BufferedReader userInput = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) throws IOException {
+        //Display the message on the screen
         System.out.println("Enter a number?");
         int num1 = Integer.parseInt(userInput.readLine());
 
+        //Display the message on the screen
         System.out.println("Enter a number?");
         int num2 = Integer.parseInt(userInput.readLine());
 
+        //Display the message on the screen
         System.out.println("Enter a number?");
         int num3 = Integer.parseInt(userInput.readLine());
 
