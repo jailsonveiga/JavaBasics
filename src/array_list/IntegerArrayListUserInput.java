@@ -41,8 +41,10 @@ public class IntegerArrayListUserInput {
         numbers.add(num2);
         numbers.add(num3);
 
+        //Use the Collections' java class and sort method to sort the list of numbers
         Collections.sort(numbers);
 
+        //Display message on the screen and its variable values also use the + operator to join the text together
         System.out.println("The number you enter is: " + num1 + "-" + num2 + "-" + num3 + " and the sort number is: " + numbers);
     }
 }
