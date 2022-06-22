@@ -14,14 +14,17 @@ public class IntegerArrayListUserInput {
     public static void main(String[] args) throws IOException {
         //Display the message on the screen
         System.out.println("Enter a number?");
+        //Initialize Integer data type num1 and assign the value from the user input and store the value into num1 variable
         int num1 = Integer.parseInt(userInput.readLine());
 
         //Display the message on the screen
         System.out.println("Enter a number?");
+        //Initialize Integer data type num2 and assign the value from the user input and store the value into num2 variable
         int num2 = Integer.parseInt(userInput.readLine());
 
         //Display the message on the screen
         System.out.println("Enter a number?");
+        //Initialize Integer data type num3 and assign the value from the user input and store the value into num3 variable
         int num3 = Integer.parseInt(userInput.readLine());
 
         List<Integer> numbers = new ArrayList<>();
