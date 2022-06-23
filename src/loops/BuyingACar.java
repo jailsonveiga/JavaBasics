@@ -19,10 +19,10 @@ public class BuyingACar {
         int earnedMoney;
 
         //Initialize a boolean data type hasApproved and assign value of false and store the value into haApproved
-        boolean hasApproved = false;
+        boolean hasApproved = true;
 
         //While is true run the while loop
-        while(!hasApproved) {
+        while(hasApproved) {
 
             //Display message on the screen
             System.out.println("Enter money earned?");
@@ -44,10 +44,9 @@ public class BuyingACar {
 
             //Check if moneySaved value is greater or equal carAmount value
             if(moneySaved >= carAmount){
-                hasApproved = true;
+                hasApproved = false;
                 //If is true executed this message and the value of the variable and use the + operator to join the text together
                 System.out.println("You saved enough to buy a car " + moneySaved);
-
             }
         }
     }
