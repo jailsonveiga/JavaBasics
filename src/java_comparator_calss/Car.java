@@ -2,6 +2,7 @@ package java_comparator_calss;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 //implements interface to somehow compare and sort our car
@@ -66,6 +67,8 @@ public class Car implements Comparable<Car>{
         //Use Car class as identifier
         List<Car> cars = new ArrayList<>();
 
+        List<Car> cars1 = new ArrayList<>();
+
         //Create a Car Object
         //Create a Car object and assign all the values and store the values into ferrari
         Car ferrari = new Car(1990, "Ferrari 360 Spider", 310 );
@@ -81,7 +84,16 @@ public class Car implements Comparable<Car>{
         cars.add(lambo);
         cars.add(bugatti);
 
-        //use the Collections java class and sort method to sort cars
+        cars1.add(ferrari);
+        cars1.add(lambo);
+        cars1.add(bugatti);
+
+        Comparator<Car> speedComparator = new MaxSpeedCarComparator();
+
+        //use the car1 object and sort method to sort cars1 speedComparator
+        cars1.sort(speedComparator);
+
+        //use Collections java class and sort method to sort cars by manufacture year
         Collections.sort(cars);
 
         //Display message on the screen and also show the values of our variables and use the + operator to join the text together
@@ -91,7 +103,12 @@ public class Car implements Comparable<Car>{
         System.out.println("------------------------------------");
 
         //Display message on the screen and also show the values of our variables and use the + operator to join the text together
-        System.out.println("Cars sort by manufacture years: \n" + cars.get(0) + "\n" + cars.get(1) + "\n" + cars.get(2));
+        System.out.println("Cars sort by manufacture year: \n" + cars.get(0) + "\n" + cars.get(1) + "\n" + cars.get(2));
 
+        //Display this on the screen
+        System.out.println("------------------------------------");
+
+        //Display message on the screen and also show the values of our variables and use the + operator to join the text together
+        System.out.println("Cars sort by speed: \n" + cars1.get(0) + "\n" + cars1.get(1) + "\n" + cars1.get(2));
     }
 }
