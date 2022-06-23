@@ -1,10 +1,10 @@
-package scanner_practice;
+package scanner_and_bufferedreader_practice;
 
 import java.util.Scanner;
 
 public class ScannerInput {
     public static void main(String[] args) {
-        //Using the Scanner object to get the user input using System.in
+        //Using the Scanner object java class to get the user input using System.in
         Scanner userInput = new Scanner(System.in);
 
         //Display "Please enter your name?" on the screen
