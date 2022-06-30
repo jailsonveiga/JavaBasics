@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 public class Adding {
     //Add BufferedReader class to read keyboard from the user stream
     public static BufferedReader userInput = new BufferedReader(new InputStreamReader(System.in));
+
     public static void main(String[] args) throws IOException {
         //Display message on the screen
         System.out.println("enter a number");
@@ -14,7 +15,7 @@ public class Adding {
         //Initialize data type int with initial value of 0 and store the value into variable total
         int total = 0;
 
-        while(true) {
+        while (true) {
             //Read the value from the keyboard and assign the value and store into num variable
             int num = Integer.parseInt(userInput.readLine());
 
@@ -22,9 +23,9 @@ public class Adding {
             total = total + num;
 
             //Check if num value equality -1 if is break and finish the execution
-            if(num == -1) {
+            if (num == -1) {
                 break;
-           }
+            }
         }
         //Display the message on the screen
         System.out.println(total);
