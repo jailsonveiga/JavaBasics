@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Adding {
-    //Add BufferedReader class to read keyboard from the user stream
+    //Add BufferedReader java class to read keyboard from the user stream
     public static BufferedReader userInput = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) throws IOException {
