@@ -10,6 +10,7 @@ public class ArrayNumberOneToTen {
         //Increment 1 after each iteration
       for(int i = 0; i < arrNum.length; i++) {
           //Display the message on the screen
+          //Do the arithmetic i value plus 1 after each iteration and store the value into arrNum array
           System.out.println("Number: " + (arrNum[i] = i + 1));
       }
     }
