@@ -11,8 +11,10 @@ public class StaticInitializationSumOf {
         int sum = 0;
 
         for (int i = 0; i < arrNum.length; i++) {
+            //Calculate the sum
             sum += arrNum[i];
 
+            //Display the message on the screen
             System.out.println("Sum is " + sum);
         }
     }
