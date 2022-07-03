@@ -8,7 +8,7 @@ public class StringArrayReverseOrder {
     public static BufferedReader userInput = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) {
-
+        //String data type array that holds 10 elements
         String[] arrName = new String[10];
 
     }
