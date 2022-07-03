@@ -16,5 +16,11 @@ public class FindSmallestElement {
         //Display message on the screen
         System.out.println("Sorted Array: " + Arrays.toString(arrNum));
 
+        //assign the value of arrNum at index zero and store the value into min variable
+        int min = arrNum[0];
+
+        //Display the message on the screen
+        System.out.println("Smallest element is: " + min);
+
     }
 }
