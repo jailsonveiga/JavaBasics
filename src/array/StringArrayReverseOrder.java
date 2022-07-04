@@ -11,6 +11,7 @@ public class StringArrayReverseOrder {
         //String data type array that holds 10 elements
         String[] arrName = new String[10];
 
+        //Display the message on the screen
         System.out.println("Enter a text?");
     }
 }
