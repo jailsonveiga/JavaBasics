@@ -28,7 +28,7 @@ public class StringArrayReverseOrder {
         //decrement  i value by 1 after each iteration
         for (int i = 9; i >= 0; i--) {
             //Display message on the screen
-            System.out.println("Reverse order array elements: " + i + " " + arrName[i]);
+            System.out.println("Reverse order array elements: " + i + " => " + arrName[i]);
         }
     }
 }
