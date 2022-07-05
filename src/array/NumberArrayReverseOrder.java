@@ -12,6 +12,9 @@ public class NumberArrayReverseOrder {
         //integer data type array that hold 10 elements
         int[] arrNum = new int [10];
 
+        //Display the message on the screen
+        System.out.println("Enter a Number?");
+
         //use a for loop, starting i with initial value of 0
         //Check if i value is less than 10
         //Increment i value by 1 after each iteration
