@@ -20,7 +20,8 @@ public class InstanceOf {
     }
 }
 
-class Parent {}
+class Parent {
+}
 class Child extends Parent implements MyInterface {}
 interface MyInterface {}
 
