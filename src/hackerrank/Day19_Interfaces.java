@@ -2,8 +2,7 @@ package hackerrank;
 
 import java.util.Scanner;
 
-class Calculator implements AdvancedArithmetic
-{
+class Calculator {
 
     public int divisorSum(int n)
     {
@@ -18,12 +17,12 @@ class Calculator implements AdvancedArithmetic
 }
 
 public class Day19_Interfaces {
-    public static void main(String[] args) {
+    public static <AdvancedArithmetic> void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
         scan.close();
 
-        AdvancedArithmetic myCalculator = new Calculator();
+        AdvancedArithmetic myCalculator = (AdvancedArithmetic) new Calculator();
         int sum = ((Calculator) myCalculator).divisorSum(n);
         System.out.println("I implemented: " + myCalculator.getClass().getInterfaces()[0].getName() );
         System.out.println(sum);
