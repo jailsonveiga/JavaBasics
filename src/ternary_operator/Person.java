@@ -48,4 +48,10 @@ public class Person {
         System.out.println(ternaryOperator);
 
     }
+
+    public void amIOld() {
+    }
+
+    public void yearPasses() {
+    }
 }
