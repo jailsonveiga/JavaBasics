@@ -1,22 +1,7 @@
 package hackerrank;
 
-import java.util.Scanner;
-
-class Person {
-    protected String firstName;
-    protected String lastName;
-    protected int idNumber;
-    // Constructor
-    Person(String firstName, String lastName, int identification) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.idNumber = identification;
-    }
-    // Print person data
-    public void printPerson() {
-        System.out.println("Name: " + lastName + ", " + firstName + "\nID: " + idNumber);
-    }
-}
+import java.io.*;
+import java.util.*;
 
 class Student extends Person {
     private int[] testScores;
@@ -36,7 +21,6 @@ class Student extends Person {
         return 'T';
     }
 }
-
 public class Day12_Inhertance {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
