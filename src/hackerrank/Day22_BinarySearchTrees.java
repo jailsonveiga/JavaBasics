@@ -3,6 +3,7 @@ package hackerrank;
 import java.util.*;
 import java.io.*;
 class Node{
+    public Node next;
     Node left,right;
     int data;
     Node(int data){
