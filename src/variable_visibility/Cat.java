@@ -13,7 +13,7 @@ public class Cat {
     }
 
     //Initialize the string datatype, assign the value and store the value into name variable
-    private String name = "nameless cat";
+    public String name = "nameless cat";
 
     //create a method setName and pass one parameter String datatype name
     public void setName(String name) {
