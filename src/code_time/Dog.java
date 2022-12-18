@@ -17,4 +17,22 @@ public class Dog {
         this.age = age;
     }
 
+    // These are getter methods, which allow us to access the private instance variables
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    // These are setter methods, which allow us to update the private instance variables
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
 }
