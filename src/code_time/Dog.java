@@ -1,4 +1,4 @@
 package code_time;
 
-public class OOP {
+public class Dog {
 }
