@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static Scanner userInput = new Scanner(System.in);
     public static void main(String[] args) {
-        Animal animal1 = new Animal("Dog", "Neru", (byte) 5, "Brown", (byte)4, 'M');
+        Animal animal1 = new Animal("Main", "Neru", (byte) 5, "Brown", (byte)4, 'M');
         Animal animal2 = new Animal("Bird", "Florista", (byte) 3, "Red", (byte)2, 'F');
         Animal animal3 = new Animal("Tiger", "Malagueta", (byte) 11, "Brown", (byte)4, 'M');
         Animal animal4 = new Animal("Fish", "Telapia", (byte) 1, "Gray", (byte)0, 'F');
