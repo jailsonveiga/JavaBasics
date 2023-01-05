@@ -22,5 +22,35 @@ public class SimpleCalculator {
         System.out.println("Enter second number");
         number2 = input.nextDouble();
 
+        switch (operator) {
+            // performs addition between numbers
+            case '+':
+                result = number1 + number2;
+                System.out.println(number1 + " + " + number2 + " = " + result);
+                break;
+
+                // performs subtraction between numbers
+            case '-':
+                result = number1 - number2;
+                System.out.println(number1 + " - " + number2 + " = " + result);
+
+                // performs multiplication between numbers
+            case '*':
+                result = number1 * number2;
+                System.out.println(number1 + " * " + number2 + " = " + result);
+                break;
+
+                // performs division between number
+            case '/':
+                result = number1 / number2;
+                System.out.println(number1 + " / " + number2 + " = " + result);
+                break;
+
+            default:
+                System.out.println("Invalid operator!");
+                break;
+
+        }
+
     }
 }
